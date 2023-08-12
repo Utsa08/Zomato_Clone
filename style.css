@@ -46,10 +46,19 @@ body {
     margin: 0 auto;
 }
 
+/*.hero__imgpattern{
+    width: 100%;
+    background-image: url(assets/svg/herobgpattren.svg);
+    height: 380px;
+     z-index: -3;
+    
+}*/
+
 .hero__imgcont {
     width: 100%;
     background-image: url(assets/svg/heroShape.svg);
     height: 350px;
+
 
 }
 
@@ -93,6 +102,99 @@ body {
     font-weight: 1000;
 }
 
+.restaurant__cont {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.restaurant__text {
+    text-align: center;
+    font-size: 30px;
+    color: #1d3557;
+    font-weight: 1000;
+}
+
+.restaurant__images {
+    background-color: #F9F9F9;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.rimage1 {
+    width: 100%;
+    border-radius: 5px 0 5px 0;
+}
+
+.rimage2 {
+    width: 100%;
+    border-radius: 5px 0 5px 0;
+}
+
+.rimage3 {
+    width: 100%;
+    border-radius: 5px 0 5px 0;
+}
+
+.rimage4 {
+    width: 100%;
+    border-radius: 5px 0 5px 0;
+}
+
+.update__cont {
+    background-color: #F9F9F9;
+}
+
+.update__text {
+    text-align: center;
+    font-size: 30px;
+    color: #1d3557;
+    font-weight: 1000;
+}
+
+.update__searchbox {
+    width: 100%;
+    padding: 25px;
+}
+
+.searchbox {
+    width: 200px;
+}
+
+.update__img {
+    width: 300px;
+}
+
+.man__img {
+    width: 100%;
+}
+
+.footer__cont {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right,
+            #ff512f 0%,
+            #dd2476 51%,
+            #ff512f 100%);
+
+}
+
+.footer__logo {
+    padding-top: 20px;
+    color: #fff;
+    font-weight: 1000px;
+    font-size: 20px;
+}
+
+.footer__list {
+    color: #fff;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 @media (min-width: 768px) {
     .navbar {
         justify-content: space-between;
@@ -113,7 +215,55 @@ body {
     .exp__menu__list {
         display: flex;
         gap: 15px;
-        padding-top: 30px;
+        padding: 0 30px;
+    }
+
+    .exp__menu__cont {
+        position: relative;
+    }
+
+    .exp__menu__background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to right,
+                #ff512f 0%,
+                #dd2476 51%,
+                #ff512f 100%);
+        z-index: -3;
+        transform: skewY(-5deg);
+    }
+
+    .exp__menu_text {
+        padding-bottom: 20px;
+    }
+
+    .update__searchbox {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .update__img {
+        width: 300px;
+        padding-left: 150px;
+    }
+
+    .footer__cont {
+        height: 150px;
+    }
+
+    .footer__logo {
+        font-size: 36px;
+        font-weight: 3000px;
+        padding-top: 45px;
+    }
+
+    .footer__list {
+        font-size: 16px;
+        padding-top: 25px;
     }
 
     #pizza__card {
@@ -151,6 +301,25 @@ body {
 
     .exp__menu__list {
         gap: 25px;
+    }
+
+    .exp__menu_text {
+        font-size: 48px;
+    }
+
+    .update__text {
+        padding-top: 30px;
+        font-size: 32px;
+    }
+
+    .searchbox {
+        width: 40%;
+        height: 35px;
+    }
+
+    .update__img {
+        width: 500px;
+        padding-left: 130px;
     }
 
 }

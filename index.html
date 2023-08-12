@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Zomato</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -27,6 +27,7 @@
     <main class="container">
         <!--Hero Section-->
         <section class="hero__container">
+            <div class="hero__imgpattern"></div>
             <div class="hero__imgcont">
                 <img src="assets/hero.jpg" alt="Hero Image" class="hero__img">
             </div>
@@ -35,9 +36,11 @@
                 <button class="button"> Order Now </button>
             </div>
         </section>
+        <br><br>
         <!-- Explore Menu-->
         <section class="exp__menu__cont">
             <h1 class="exp__menu_text">Explore our Menu</h1>
+            <div class="exp__menu__background"></div>
             <div class=" exp__menu__list">
                 <!--Burger-->
                 <div class="food__card">
@@ -71,7 +74,51 @@
                 </div>
             </div>
         </section>
+        <br><br>
+        <!--Restaurants-->
+        <section class="restaurant__cont">
+            <div class="restaurant__text"> Order From 100s of restaurants </div>
+            <div class="restaurant__images">
+                <div class="restaurant__img1">
+                    <img src="assets/restaurant1.jpg" alt="Restaurant" class="rimage1">
+                </div>
+                <div class="restaurant__img2">
+                    <img src="assets/restaurant2.jpg" alt="Restaurant" class="rimage2">
+                </div>
+                <div class="restaurant__img3">
+                    <img src="assets/restaurant3.jpg" alt="Restaurant" class="rimage3">
+                </div>
+                <div class="restaurant__img4">
+                    <img src="assets/restaurant4.jpg" alt="Restaurant" class="rimage4">
+                </div>
+            </div>
+        </section>
+        <!--Stay Updated-->
+        <section class="update__cont">
+            <div class="update">
+                <div class="update__text"> Stay Updated </div>
+                <div class="update__searchbox">
+                    <input type="email" class="searchbox" id="search" placeholder="name@example.com">
+                    <button class="button"> Get Updates </button>
+                </div>
+                <div class="update__img">
+                    <img src="assets/man.png" alt="Update" class="man__img">
+                </div>
+            </div>
+        </section>
     </main>
+    <!--Footer-->
+    <footer class="footer__cont">
+        <div class="footer__logo"> <strong>zomato</strong> </div>
+        <div class="footer__list">
+            <p>Pricing<br>
+                Terms and Conditions<br>
+                Partnership<br>
+                Blog<br>
+                Contact</p>
+        </div>
+    </footer>
+
 </body>
 
 </html>
